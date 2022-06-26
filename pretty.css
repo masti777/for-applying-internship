@@ -1,0 +1,312 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image:url('pp.PNG');
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+
+
+nav ul{
+	padding:0;
+	margin:58px;
+	float:right;
+	margin-right:70px;
+}
+nav ul li{
+	background:#2c3e50;
+	position:relative;
+	list-style:none;
+	display:inline-block;
+}
+nav ul li a{
+	display:block;
+	margin:0;
+	padding:0 50px;
+	color:white;
+	text-decoration:none;
+	line-height:60px;
+	font-size:12px;
+}
+nav ul li a:hover{
+	background:#243342;
+}
+nav ul ul{
+	position:absolute;
+	top:0;
+	display:none;
+}
+nav ul li:hover > ul{
+	display:block;
+}
+nav ul ul li{
+	
+	width:150px;
+	float:none;
+	display:list-item;
+	position:relative;
+}
+nav ul ul ul li{
+	
+	position:relative;
+	top:-60px;
+	left:90px;
+}
+.body{
+	padding:0 20px;
+}
+.body img{
+	width:600px;
+	max-width:700px;
+     margin:20px 0;
+	 height:600px;
+}
+.body p{
+	text-align:justify;
+	font-size:20px;
+	color:black;
+	
+}
+	footer{
+	background-color:#000;
+	color:white;
+	height:15vh;
+    bottom:0;
+	width:100%;
+	position:absolute;
+}
+footer h2
+{
+	
+	position:absolute;
+	left:45%;
+}
+footer p{
+	position:absolute;
+left:48%;
+bottom:20px;
+color:red;
+}
+	
+	
+header{
+	height:9vh;
+	position:absolute;
+	background-color:silver;
+	width:100%;
+	color:white;
+}
+	header h1{
+		position:absolute;
+		margin-top:20px;
+		left:150px;
+		color:black;
+	}
+	
+.logo{
+	padding 9px 0 0 80px;
+	width:150px;
+	height:60px;
+}
+.ab p{
+	color:#ff7200;
+}
+
+/*login*/
+.login{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+.login .login-left{
+    position: relative;
+    margin-top: 100px;
+    left: 100px;
+    width: 100%;
+}
+.login-left .login-content{
+    /* background-color: aquamarine; */
+    width: max-content;
+}
+.login-left h2{
+    font-size: 30px;
+    color: #1A3F13;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.login-left h3{
+    font-size: 26px;
+    padding-left:100px;
+    padding-bottom: 30px;
+
+}
+.login  form{
+    margin-left: 100px;
+    /* background-color: blueviolet; */
+    width: 100px;
+    display: flexbox;
+
+    
+}
+.login .login-left .name{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+
+}
+
+.login .login-left .pwd,.name{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+.forgot-pwd{
+    font-weight: 600px;
+    font-size: 14px;
+    display: flex;
+    width: 500px;
+}
+.forgot-pwd :first-child{
+    position: relative;
+    color: red;
+    left: 100px;
+    top: 20px;
+
+}
+.forgot-pwd :nth-child(2) a{
+    text-decoration: none;
+    color: #1A3F13;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    font-weight: 600;
+
+}
+.forgot-pwd p:hover{
+    color: #F2882C;
+    cursor: pointer;
+}
+.btn button{
+    border: none;
+    position: relative;
+    top: 100px;
+    left: 25%;
+    width: 169px;
+    height: 37px;
+    text-align: center;
+    background: #1A3F13;
+    border-radius: 20px;
+    color: white;
+    transition:box-shadow, 12sec ease-in;
+    box-shadow: 3px 4px 4px #1A3F13;
+    font-size: 18px;
+
+    
+}
+.btn button:hover{
+    background-color: #F2882C;
+    cursor: pointer;
+    box-shadow: 3px 4px 4px black;
+    
+
+}
+.signin{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+.signin .signin-left{
+    width: 100%;
+    background:#F2882C;
+    
+}
+.signin .signin-left img{
+    width: 100%;
+    height: 100%;
+
+}
+.signin-content .login-header{
+    color: #1A3F13;
+    font-weight: 500;
+  
+}
+hr{
+    border: 0.01px solid #F2882C;
+    margin: 10px 20px 20px;
+}
+.signin .signin-right{
+    width: 100%;
+}
+
+.signin-right h2{
+    padding-top: 90px;
+    font-size: 30px;
+    color: #1A3F13;
+    text-align: center;
+}
+.signin-right h3{
+    font-size: 26px;
+    padding-top: 30px;
+    padding-left: 120px;
+
+
+}
+.signin .signin-right form{
+    position: relative;
+    left: 120px;
+    top: 20px;
+    width: 100px;
+    display: flexbox;
+    
+    
+}
+.signin .signin-right .pwd,.name,.cpwd,.phone,.email{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.signin-content .login-header .links li a:hover{
+    text-decoration: underline;
+    color: #F2882C;
+}
+.btn button{
+    border: none;
+    position: relative;
+    top: 50px;
+    left: 25%;
+    width: 169px;
+    height: 37px;
+    text-align: center;
+    background: #1A3F13;
+    border-radius: 20px;
+    color: white;
+    transition:box-shadow, 12sec ease-in;
+    box-shadow: 3px 4px 4px #1A3F13;
+    font-size: 18px;
+
+    
+}
+.btn button:hover{
+    background-color: #F2882C;
+    cursor: pointer;
+    box-shadow: 3px 4px 4px black;
+    
+}
+.middle{
+    height: 100vh;
+    display: flex;
+    width: 50%;
+}
+.about{
+text-align:center;
+font-size:15px;
+position:absolute;
+		margin-top:100px;
+		left:150px;
+		color:white;
+}

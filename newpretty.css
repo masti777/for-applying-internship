@@ -1,0 +1,305 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image:url('pp.PNG');
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+
+
+nav ul{
+	padding:0;
+	margin:58px;
+	float:right;
+	margin-right:70px;
+}
+nav ul li{
+	background:#2c3e50;
+	position:relative;
+	list-style:none;
+	display:inline-block;
+}
+nav ul li a{
+	display:block;
+	margin:0;
+	padding:0 50px;
+	color:white;
+	text-decoration:none;
+	line-height:60px;
+	font-size:12px;
+}
+nav ul li a:hover{
+	background:#243342;
+}
+nav ul ul{
+	position:absolute;
+	top:0;
+	display:none;
+}
+nav ul li:hover > ul{
+	display:block;
+}
+nav ul ul li{
+	
+	width:150px;
+	float:none;
+	display:list-item;
+	position:relative;
+}
+nav ul ul ul li{
+	
+	position:relative;
+	top:-60px;
+	left:90px;
+}
+footer{
+	background-color:#000;
+	color:white;
+	height:15vh;
+    bottom:0;
+	width:100%;
+	position:absolute;
+}
+footer h2
+{
+	font-size:15px;
+	position:absolute;
+	left:45%;
+}
+footer p{
+	position:absolute;
+left:48%;
+bottom:20px;
+color:red;
+}
+header{
+	height:9vh;
+	position:absolute;
+	background-color:none;
+	width:100%;
+	color:white;
+}
+	header h1{
+		
+		position:absolute;
+		margin-top:20px;
+		left:150px;
+		color:red;
+		text-decoration: blink;
+		text-align: center;
+	}
+	
+.logo{
+	padding :0px 0 0 0px;
+	width:150px;
+	height:90px;
+}
+.fiction{
+text-align:center;
+font-size:20px;
+position:absolute;
+		margin-top:200px;
+		left:150px;
+		color:white;
+}
+.par{
+	padding-top:100px
+}
+.fiction .aaa h1{
+	padding :100px 0 0 80px;
+	text-align:center;
+font-size:40px;
+}
+.fiction .aaa {
+	padding :5px 0 0 80px;
+	text-align:center;
+font-size:40px;
+}
+/*login*/
+.login{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+.login .login-left{
+    position: relative;
+    margin-top: 100px;
+    left: 100px;
+    width: 100%;
+}
+.login  form{
+    margin-left: 100px;
+    /* background-color: blueviolet; */
+    width: 100px;
+    display: flexbox;
+
+    
+}
+.login .login-left .name{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+
+}
+
+.login .login-left .pwd,.name{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+.forgot-pwd{
+    font-weight: 600px;
+    font-size: 14px;
+    display: flex;
+    width: 500px;
+}
+.forgot-pwd :first-child{
+    position: relative;
+    color: red;
+    left: 100px;
+    top: 20px;
+
+}
+.forgot-pwd :nth-child(2) a{
+    text-decoration: none;
+    color: #1A3F13;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    font-weight: 600;
+
+}
+.forgot-pwd p:hover{
+    color: #F2882C;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: #F2882C;
+    cursor: pointer;
+    box-shadow: 3px 4px 4px black;
+    
+
+}
+
+/*form....*/
+form{
+text-align:center;
+width:300px;
+margin:px;
+padding-top: 50px;
+padding-right: 3px;
+padding-bottom: 5px;
+padding-left: 80px;
+}
+
+.right{
+	PADDING:30PX;
+	margin:100PX;
+}
+.input{
+  padding:8px 5px;
+  margin:px;
+  height:30px ;
+  width:70%;
+ font-size :80%;
+ border-radius:5px ;
+ border:2px solid powderblue;
+ box-shadow:10px 10px 26px 10px rgba(0,0,0,0.4);
+ }
+ 
+ .in{
+	  padding:8px 5px;
+	text-align:left;
+	font-size:100%;
+     color:pink;
+
+	}
+ .gend{
+	 text-align:left;
+	 color:white;
+	 font-size:20px;
+	 
+	 font-family:italic;
+ }
+h2{
+	font-size:45px;
+	color:beige;
+	box-shadow:10px 10px 26px 10px rgba(0,0,0,0.9);
+	marquee-direction:right;
+}
+.submit{
+	position:absolute;
+	text-align:center;
+	color:blue;
+	font-size:30px;
+	box-shadow:3px 3px 2px 4px rgba(0,0,0,0.8);
+	 font-family:italic;
+	
+}
+ 
+.middle
+	{
+		margin:100px;
+		text-align:left;
+		font-size:20px;
+		color:white;
+		text-align:justify;
+	}
+/*******************  commemt page ******************/
+
+	.comment button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    margin-left: 25%;
+    width: 50%;
+    opacity: 0.9;
+}
+.middle_body_comment {
+    height: 65%;
+    background-color: none;
+	align:center;
+    margin-bottom: 30px;
+    margin-top: 60px;
+	}
+	/*.....slide....*/
+	/*.slider{
+width:1400px;
+height:450px;
+background:url('red.jpg');
+margin-top:0px auto;
+margin-bottom:0px auto;
+animation:slide 40s infinite;
+animation-direction:right-side;
+background-repeat:no-repeat;
+background-size:cover;}
+
+@keyframes slide{
+100%{
+background-url(lelasew.jpg);
+background-size:cover;
+}	
+40%{
+background:url(quran1.jpg);
+background-size:cover;
+}	
+60%{
+background:url(school.jpg);
+background-size:cover;
+}	
+80%{
+background:url(thumb.jpg);
+background-size:cover;
+}	
+100%{
+background:url(oromay.jpg);
+background-size:cover;
+}	}
+*/
